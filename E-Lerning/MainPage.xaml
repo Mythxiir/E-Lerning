@@ -6,8 +6,19 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="537*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <SolidColorBrush  Color="White"/>
+        </Grid.Background>
+        <Grid Grid.Row="1">
+            <Grid.Background>
+                <SolidColorBrush Color="Green"/>
+            </Grid.Background>
+        </Grid>
     </Grid>
 </Page>
