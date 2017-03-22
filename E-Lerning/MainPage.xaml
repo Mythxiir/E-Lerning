@@ -15,10 +15,5 @@
         <Grid.Background>
             <SolidColorBrush  Color="White"/>
         </Grid.Background>
-        <Grid Grid.Row="1">
-            <Grid.Background>
-                <SolidColorBrush Color="Green"/>
-            </Grid.Background>
-        </Grid>
     </Grid>
 </Page>
