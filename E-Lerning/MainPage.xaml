@@ -5,7 +5,8 @@
     xmlns:local="using:E_Lerning"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+   >
     <Page.Resources>
         <Style x:Key="btnLogin" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>
@@ -83,7 +84,7 @@
         <Style x:Key="tbUser" TargetType="TextBox">
             <Setter Property="MinWidth" Value="{ThemeResource TextControlThemeMinWidth}"/>
             <Setter Property="MinHeight" Value="{ThemeResource TextControlThemeMinHeight}"/>
-            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Foreground" Value="Black"/>
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="BorderBrush" Value="{ThemeResource TextControlBorderBrush}"/>
             <Setter Property="SelectionHighlightColor" Value="{ThemeResource TextControlSelectionHighlightColor}"/>
@@ -117,7 +118,7 @@
                                                                         <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                     <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="GlyphElement">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                 </Storyboard>
                                                             </VisualState>
@@ -130,7 +131,7 @@
                                                                         <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                     <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="GlyphElement">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                 </Storyboard>
                                                             </VisualState>
@@ -141,7 +142,7 @@
                                                             </VisualState>
                                                         </VisualStateGroup>
                                                     </VisualStateManager.VisualStateGroups>
-                                                    <TextBlock x:Name="GlyphElement" AutomationProperties.AccessibilityView="Raw" Foreground="White" FontStyle="Normal" FontSize="12" FontFamily="{ThemeResource SymbolThemeFontFamily}" HorizontalAlignment="Center" Text="&#xE10A;" VerticalAlignment="Center"/>
+                                                    <TextBlock x:Name="GlyphElement" AutomationProperties.AccessibilityView="Raw" Foreground="Black" FontStyle="Normal" FontSize="12" FontFamily="{ThemeResource SymbolThemeFontFamily}" HorizontalAlignment="Center" Text="&#xE10A;" VerticalAlignment="Center"/>
                                                 </Grid>
                                             </ControlTemplate>
                                         </Setter.Value>
@@ -161,7 +162,7 @@
                                     <VisualState x:Name="Disabled">
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="HeaderContentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="BorderElement">
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
@@ -170,10 +171,10 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="PlaceholderTextContentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
                                     </VisualState>
@@ -187,10 +188,10 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="PlaceholderTextContentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
                                     </VisualState>
@@ -206,10 +207,10 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="RequestedTheme" Storyboard.TargetName="ContentElement">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Light"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
                                     </VisualState>
@@ -242,7 +243,7 @@
         <Style x:Key="pbPass" TargetType="PasswordBox">
             <Setter Property="MinWidth" Value="{ThemeResource TextControlThemeMinWidth}"/>
             <Setter Property="MinHeight" Value="{ThemeResource TextControlThemeMinHeight}"/>
-            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Foreground" Value="Black"/>
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="SelectionHighlightColor" Value="{ThemeResource TextControlSelectionHighlightColor}"/>
             <Setter Property="BorderBrush" Value="Transparent"/>
@@ -276,7 +277,7 @@
                                                                         <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                     <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="GlyphElement">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                 </Storyboard>
                                                             </VisualState>
@@ -289,7 +290,7 @@
                                                                         <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                     <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="GlyphElement">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                 </Storyboard>
                                                             </VisualState>
@@ -302,7 +303,7 @@
                                                                         <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                     <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="GlyphElement">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                 </Storyboard>
                                                             </VisualState>
@@ -315,7 +316,7 @@
                                                                         <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                     <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="GlyphElement">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                                                     </ObjectAnimationUsingKeyFrames>
                                                                 </Storyboard>
                                                             </VisualState>
@@ -326,7 +327,7 @@
                                                             </VisualState>
                                                         </VisualStateGroup>
                                                     </VisualStateManager.VisualStateGroups>
-                                                    <TextBlock x:Name="GlyphElement" AutomationProperties.AccessibilityView="Raw" Foreground="White" FontStyle="Normal" FontSize="16" FontFamily="{ThemeResource SymbolThemeFontFamily}" HorizontalAlignment="Center" Text="&#xE052;" VerticalAlignment="Center"/>
+                                                    <TextBlock x:Name="GlyphElement" AutomationProperties.AccessibilityView="Raw" Foreground="Black" FontStyle="Normal" FontSize="16" FontFamily="{ThemeResource SymbolThemeFontFamily}" HorizontalAlignment="Center" Text="&#xE052;" VerticalAlignment="Center"/>
                                                 </Grid>
                                             </ControlTemplate>
                                         </Setter.Value>
@@ -346,7 +347,7 @@
                                     <VisualState x:Name="Disabled">
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="HeaderContentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="BorderElement">
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
@@ -355,10 +356,10 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="PlaceholderTextContentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
                                     </VisualState>
@@ -372,17 +373,17 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="PlaceholderTextContentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
                                     </VisualState>
                                     <VisualState x:Name="Focused">
                                         <Storyboard>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="PlaceholderTextContentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="BorderElement">
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
@@ -391,7 +392,7 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="ContentElement">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="White"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
                                             </ObjectAnimationUsingKeyFrames>
                                         </Storyboard>
                                     </VisualState>
