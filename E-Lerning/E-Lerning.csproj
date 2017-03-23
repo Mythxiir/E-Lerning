@@ -108,6 +108,7 @@
     <None Include="E-Lerning_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\BackgroundElerninig.png" />
     <Content Include="Assets\Menu.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

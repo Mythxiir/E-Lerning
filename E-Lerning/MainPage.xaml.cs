@@ -26,5 +26,15 @@ namespace E_Lerning
         {
             this.InitializeComponent();
         }
+
+        private void pbPassword_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
